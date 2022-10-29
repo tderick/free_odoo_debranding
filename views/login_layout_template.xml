@@ -1,0 +1,5 @@
+<odoo>
+    <!-- <template id="login_layout_extended" name="Extended Login Layout" inherit_id="web.login_layout">
+        <xpath expr="/t/t/div/div/div/div[2]" position="replace"></xpath>
+    </template> -->
+</odoo>
