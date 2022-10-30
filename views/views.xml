@@ -1,7 +1,8 @@
 <odoo>
-    <!-- <template id="login_layout_extended" name="Extended Login Layout" inherit_id="web.login_layout">
+    <!-- Remove Branding in LoginPage -->
+    <template id="login_layout_extended" name="Extended Login Layout" inherit_id="web.login_layout">
         <xpath expr="/t/t/div/div/div/div[2]" position="replace"></xpath>
-    </template> -->
+    </template>
 
     <!--Modify brand promotion details-->
     <template id="brand_promo_extend" inherit_id="web.brand_promotion">
