@@ -12,7 +12,7 @@
     'licence': 'LGPL-3',
     'depends': ['web'],
     'data': [
-        'views/login_layout_template.xml',
+        'views/views.xml',
     ],
     "qweb": ["static/src/xml/base.xml"]
 

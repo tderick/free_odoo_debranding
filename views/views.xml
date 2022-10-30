@@ -1,0 +1,16 @@
+<odoo>
+    <!-- <template id="login_layout_extended" name="Extended Login Layout" inherit_id="web.login_layout">
+        <xpath expr="/t/t/div/div/div/div[2]" position="replace"></xpath>
+    </template> -->
+
+    <!--Modify brand promotion details-->
+    <template id="brand_promo_extend" inherit_id="web.brand_promotion">
+        <xpath expr="//div[hasclass('o_brand_promotion')]" position="replace"></xpath>
+    </template>
+
+    <!-- Remove Branding from Portal Report sidebar -->
+    <template id="portal_report_sidebar_extend" inherit_id="portal.portal_record_sidebar">
+        <xpath expr="//div/div/div[hasclass('card-footer')]" position="replace"></xpath>
+    </template>
+
+</odoo>
